@@ -1,0 +1,42 @@
+.page-wrapper{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-page{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+b{
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.text-box{
+    background-color: unset;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+button{
+    font-size: 70%;
+    color: rgb(104, 100, 100);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#table{
+    width: 100%;
+}
+
+th, td{
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
